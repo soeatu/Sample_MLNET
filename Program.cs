@@ -171,7 +171,6 @@ using (var writer = new StreamWriter(testFilePath))
         {
             writer.WriteLine($"{c.Label}: {c.Score:P}<br />");
         });
-
         writer.WriteLine("</td></tr>");
     }
 
